@@ -1,0 +1,13 @@
+current directory: /Users/avigma/Minal/Project/RNYogaMeditation/vendor/bundle/ruby/2.7.0/gems/json-2.6.1/ext/json
+/Users/avigma/.rvm/rubies/ruby-2.7.4/bin/ruby -I /Users/avigma/.rvm/rubies/ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20220413-16594-1smz6fg.rb extconf.rb
+creating Makefile
+
+current directory: /Users/avigma/Minal/Project/RNYogaMeditation/vendor/bundle/ruby/2.7.0/gems/json-2.6.1/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/avigma/Minal/Project/RNYogaMeditation/vendor/bundle/ruby/2.7.0/gems/json-2.6.1/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/avigma/Minal/Project/RNYogaMeditation/vendor/bundle/ruby/2.7.0/gems/json-2.6.1/ext/json
+make "DESTDIR=" install

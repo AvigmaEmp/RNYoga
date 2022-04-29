@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "390093337258",
+    "project_id": "yoga-app-9fb3b",
+    "storage_bucket": "yoga-app-9fb3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390093337258:android:c7ab664a6102283426d6d3",
+        "android_client_info": {
+          "package_name": "com.rnyogameditation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390093337258-6e34mh79q1kj2jh1hhh4m71hqrprs498.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rnyogameditation",
+            "certificate_hash": "fb0182b90efcb6cf5e6907043c8b85fae47e7506"
+          }
+        },
+        {
+          "client_id": "390093337258-3rtuo8d67bchnc80rvh2800muk298eop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU_Ar9BhwmLWxoRzGvTLXJaIUKENFey54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390093337258-3rtuo8d67bchnc80rvh2800muk298eop.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "390093337258-2j1hdonmqvtjo0bve259pf54vl3h20u8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.RNYogaMeditation",
+                "app_store_id": "1618941188"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

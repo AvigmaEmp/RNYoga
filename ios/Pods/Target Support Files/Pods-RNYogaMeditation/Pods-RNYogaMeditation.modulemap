@@ -1,0 +1,6 @@
+module Pods_RNYogaMeditation {
+  umbrella header "Pods-RNYogaMeditation-umbrella.h"
+
+  export *
+  module * { export * }
+}
