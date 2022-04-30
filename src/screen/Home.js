@@ -121,21 +121,25 @@ class Home extends Component {
             onPress={() => this.props.navigation.navigate("Meditation")}
             title={"Meditation"}
             iconpath={require("../assets/flower.png")}
+            right={'right'}
           />
           <ViewComp
             onPress={() => this.props.navigation.navigate("NutritionScreen")}
             title={"Nutrition"}
             iconpath={require("../assets/nutrition-icon.png")}
+            right={'right'}
           />
           <ViewComp
             onPress={() => this.props.navigation.navigate("Yoga")}
             title={"Yoga"}
             iconpath={require("../assets/yoga-icon.png")}
+            right={'right'}
           />
           <ViewComp
             onPress={() => this.props.navigation.navigate("ChatScreen")}
             title={"Online therapy"}
             iconpath={require("../assets/chatbox.png")}
+            right={'right'}
           />
           
         </View>

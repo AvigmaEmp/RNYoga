@@ -90,7 +90,7 @@ const Calender = () => {
   }
   return (
     <ScrollView
-      style={{ backgroundColor: '#2D1350', flex: 1, paddingHorizontal: 15 }}
+      style={{ backgroundColor: '#2D1350', flex: 1, paddingHorizontal:10 }}
     >
       <View>
         <CalendarStrip
@@ -99,13 +99,14 @@ const Calender = () => {
           dayContainerStyle={{
             backgroundColor: '#402562',
             height: 80,
-            borderRadius: 10
+            borderRadius: 10,
           }}
           highlightDateContainerStyle={{
             height: 80,
             backgroundColor: '#AB29FC',
             borderRadius: 10,
-            paddingVertical: 5
+            paddingVertical: 5,
+            
           }}
           // dateContainerStyle={{ height:80,backgroundColor:'red',borderRadius:10,justifyContent:'space-between',paddingVertical:5,}}
           dateNumberStyle={{
@@ -116,7 +117,7 @@ const Calender = () => {
             marginTop: 15,
             borderColor: '#fff',
             width: 40,
-            marginHorizontal: 10
+           paddingLeft:10
           }}
           highlightDateNumberStyle={{
             textAlignVertical: 'center',
@@ -140,7 +141,9 @@ const Calender = () => {
             backgroundColor: '#2D1350',
             paddingLeft: 20,
             color: 'white',
-            paddingVertical: 8
+            paddingVertical: 8,
+            paddingLeft:20,
+           
           }}
           onDateSelected={(date) => {
             console.log(date)
@@ -151,6 +154,7 @@ const Calender = () => {
           rightSelector={[]}
         />
       </View>
+      
       <View style={{ marginTop: 10 }}>
         <Text style={{ color: '#fff', fontSize: 15 }}>Tracked for today</Text>
       </View>

@@ -10,6 +10,7 @@ import {
 } from 'react-native'
 import ButtomCustom from '../customcomponent/ButtomCustom'
 import Header from '../customcomponent/Header'
+import CustomeFont from '../CustomeFont'
 
 export default class ChatScreen extends Component {
   render() {
@@ -96,7 +97,8 @@ const styles = StyleSheet.create({
   },
   chattext: {
     fontSize: 20,
-    color: '#FFFFFF'
+    color: '#FAF9F6',
+    fontFamily:CustomeFont.Poppins_Bold
   },
 
   container1: {

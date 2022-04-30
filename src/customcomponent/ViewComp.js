@@ -30,7 +30,7 @@ export default class ViewComp extends Component {
           />
         </View>
         <View style={{ position: 'absolute', zIndex: 1, marginLeft: '87%' }}>
-          <AntDesign name={'right'} size={25} color='#bcbcbc' />
+          <AntDesign name={this.props.right} size={25} color='#bcbcbc' />
         </View>
         <Image
           resizeMode='stretch'

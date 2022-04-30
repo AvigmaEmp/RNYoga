@@ -35,7 +35,7 @@ export default class Meditation extends Component {
             <Header title={'Set Duration'} navigation={this.props.navigation} />
             <ButtomCustom
               onPress={() => this.props.navigation.navigate('musicplayer')}
-              title={'30 mint'}
+              title={'30 min'}
               backgroundColor={'#C441FD'}
             />
           </View>
@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
     tintColor: '#AB29FC'
   },
   Touchableprev: {
-    backgroundColor: '#AB29FC',
+    backgroundColor: '#ED6BFD',
     padding: 12,
     borderRadius: 35
   },
