@@ -1509,6 +1509,30 @@
   "resolved" "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.4.tgz"
   "version" "15.7.4"
 
+"@types/react-native-video-player@^0.10.3":
+  "integrity" "sha512-7ME/pS1uKq+zu3jELgriweYJi83c6nZZvKojLRDvabOPuJNDC2AtQom8UwwRrbnZt9tRFpQcQ6DX9R7Hj+f3pw=="
+  "resolved" "https://registry.npmjs.org/@types/react-native-video-player/-/react-native-video-player-0.10.3.tgz"
+  "version" "0.10.3"
+  dependencies:
+    "@types/react" "*"
+    "@types/react-native" "*"
+    "@types/react-native-video" "*"
+
+"@types/react-native-video@*":
+  "integrity" "sha512-pXdF+uM5Kqmsx90eQzOArkz06QOzKQi8uekdcqD+KeNXuQfwJ6hiuGTiC46VcgxGdQVCKAa1AYMg6oUMPaygew=="
+  "resolved" "https://registry.npmjs.org/@types/react-native-video/-/react-native-video-5.0.13.tgz"
+  "version" "5.0.13"
+  dependencies:
+    "@types/react" "*"
+    "@types/react-native" "*"
+
+"@types/react-native@*", "@types/react-native@^0.67.6":
+  "integrity" "sha512-NM6atxrefIXMLE/PyQ1bIQjQ/lWLdls3uVxItzKvNUUVZlGqgn/uGN4MarM9quSf90uSqJYPIAeAgTtBTUjhgg=="
+  "resolved" "https://registry.npmjs.org/@types/react-native/-/react-native-0.67.6.tgz"
+  "version" "0.67.6"
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-redux@^7.1.20":
   "integrity" "sha512-D02o3FPfqQlfu2WeEYwh3x2otYd2Dk1o8wAfsA0B1C2AJEFxE663Ozu7JzuWbznGgW248NaOF6wsqCGNq9d3qw=="
   "resolved" "https://registry.npmjs.org/@types/react-redux/-/react-redux-7.1.23.tgz"
@@ -4306,7 +4330,6 @@
     "@types/node" "*"
     "anymatch" "^3.0.3"
     "fb-watchman" "^2.0.0"
-    "fsevents" "^2.1.2"
     "graceful-fs" "^4.2.4"
     "jest-regex-util" "^26.0.0"
     "jest-serializer" "^26.6.2"
@@ -4328,7 +4351,6 @@
     "@types/node" "*"
     "anymatch" "^3.0.3"
     "fb-watchman" "^2.0.0"
-    "fsevents" "^2.3.2"
     "graceful-fs" "^4.2.9"
     "jest-regex-util" "^27.5.1"
     "jest-serializer" "^27.5.1"
@@ -6226,7 +6248,7 @@
   "resolved" "https://registry.npmjs.org/react-native-video-player/-/react-native-video-player-0.12.0.tgz"
   "version" "0.12.0"
 
-"react-native-video@^2.0.0":
+"react-native-video@^2.0.0", "react-native-video@^2.3.1":
   "integrity" "sha512-fTeVcp0IXL4MY/IjzISqdCCikWb5hfmkLfJTSa1B5qvmbca3R4gFvFICQO4CFvfetInra8P9g1LFnvmfMhy7Gw=="
   "resolved" "https://registry.npmjs.org/react-native-video/-/react-native-video-2.3.1.tgz"
   "version" "2.3.1"

@@ -6,7 +6,8 @@ import {
   StyleSheet,
   Image,
   TouchableOpacity,
-  SafeAreaView
+  SafeAreaView,
+  ScrollView
 } from 'react-native'
 import Header from '../customcomponent/Header'
 import ViewComp from '../customcomponent/ViewComp'
@@ -35,12 +36,13 @@ export default class Meditation extends Component {
             <Header title={'Set Duration'} navigation={this.props.navigation} />
             <ButtomCustom
               onPress={() => this.props.navigation.navigate('musicplayer')}
-              title={'30 min'}
+              title={'30 mint'}
               backgroundColor={'#C441FD'}
             />
           </View>
 
           <View style={{ flex: 1, alignItems: 'center', padding: 10 }}>
+            <ScrollView style={{ width:"100%"}}>
             <ViewComp
               title={'Type of meditation'}
               iconpath={require('../assets/flower.png')}
@@ -65,7 +67,8 @@ export default class Meditation extends Component {
               title={'Type of meditation'}
               iconpath={require('../assets/flower.png')}
             />
-
+            <View style={{height:140}}></View>
+</ScrollView>
             <BottomSheet
               isOpen
               wrapperStyle={{
@@ -137,7 +140,7 @@ const styles = StyleSheet.create({
     tintColor: '#AB29FC'
   },
   Touchableprev: {
-    backgroundColor: '#ED6BFD',
+    backgroundColor: '#AB29FC',
     padding: 12,
     borderRadius: 35
   },

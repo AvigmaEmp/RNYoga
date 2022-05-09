@@ -10,7 +10,6 @@ import {
   ImageBackground
 } from 'react-native'
 import ButtomCustom from '../customcomponent/ButtomCustom'
-import CustomeFont from '../CustomeFont'
 
 class SubscriptionScreen extends Component {
   render() {
@@ -32,7 +31,7 @@ class SubscriptionScreen extends Component {
               <Text style={styles.headertext1}>Meditapp</Text>
 
               <Text style={styles.headertext2}>
-              join relanxie pro to be your best self on
+                Join Meditapp pro to be your best self on
               </Text>
 
               <Text style={styles.headertext2}>demand</Text>
@@ -168,7 +167,8 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontWeight: '700',
     marginLeft: 30,
-    fontFamily:CustomeFont.Poppins_SemiBold  },
+    fontFamily:'Poppins-Medium'
+  },
 
   container4: {
     height: 80,

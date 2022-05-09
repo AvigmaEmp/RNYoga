@@ -12,6 +12,7 @@ import Header from "../customcomponent/Header";
 import ButtomCustom from "../customcomponent/ButtomCustom";
 import BottomSheet from "react-native-simple-bottom-sheet";
 import { basecolor } from "../services/constant";
+import VideoListV from "../customcomponent/VideoListV";
 const DATA = [
   {
     id: "1",
@@ -43,6 +44,10 @@ export default class Yoga extends Component {
       visible: false,
       message: "",
       timer: "30 min",
+      videosArray :["https://musicsvideosfiles.s3.amazonaws.com/WhatsApp+Video+2022-04-28+at+4.09.10+PM.mp4",
+      "https://musicsvideosfiles.s3.amazonaws.com/WhatsApp+Video+2022-04-28+at+4.09.10+PM.mp4",
+      "https://musicsvideosfiles.s3.amazonaws.com/WhatsApp+Video+2022-04-28+at+4.09.10+PM.mp4",
+      "https://musicsvideosfiles.s3.amazonaws.com/WhatsApp+Video+2022-04-28+at+4.09.10+PM.mp4"]
     };
     this.panelRef = React.createRef();
   }
@@ -125,21 +130,13 @@ export default class Yoga extends Component {
 
               
               </View>
-
-              <View style={{marginTop:20,marginHorizontal:20}}>
-               <Text
-                style={{
-                  fontWeight: "500",
-                  fontSize: 15,
-                  color: "#fff",
-                  lineHeight: 20, 
-                }}
-              >
-                Video
-              </Text>
-               </View>
-            
             </View>
+            {this.state.videosArray.map((item)=>{
+             return <VideoListV onPress={()=>{
+              this.props.navigation.navigate('FullScreenVideo') 
+             }}/>
+            })}
+            <View style={{height:40}}></View>
           </ScrollView>
         </SafeAreaView>
         <BottomSheet

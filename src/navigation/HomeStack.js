@@ -14,6 +14,8 @@ import DetailGuide from "../screen/DetailGuide";
 import DetailRecipes from "../screen/DetailRecipes";
 import DetailGroceryList from "../screen/DetailGroceryList";
 import Detaildiet from "../screen/Detaildiet";
+import FullScreenVideo from "../screen/FullScreenVideo";
+
 const HomeStack = createStackNavigator();
 
 export default function HomeNavigation() {
@@ -31,6 +33,7 @@ export default function HomeNavigation() {
       <HomeStack.Screen name="ChatScreen" component={ChatScreen} />
       <HomeStack.Screen name="Meditation" component={Meditation} />
       <HomeStack.Screen name="musicplayer" component={musicplayer} />
+      <HomeStack.Screen name="FullScreenVideo" component={FullScreenVideo}/>
       <HomeStack.Screen
         name="ChatofflineScreen"
         component={ChatofflineScreen}

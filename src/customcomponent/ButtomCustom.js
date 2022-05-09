@@ -24,7 +24,7 @@ export default class ButtomCustom extends Component {
       >
         <AntDesign name={this.props.name} size={25} color='#FFF' />
         <Text
-          style={{ marginStart:10,color: '#fff', fontSize: 17, fontFamily:CustomeFont.Poppins_SemiBold}}
+          style={{ marginStart:10,color: '#fff', fontSize: 17, fontFamily:CustomeFont.Poppins_SemiBold }}
         >
           {this.props.title}
         </Text>
